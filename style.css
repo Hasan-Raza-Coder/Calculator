@@ -1,0 +1,54 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.container{
+    text-align: center;
+    align-items: center;
+    padding-top: 50px;
+    background-color: grey;
+    margin: 50px 590px;
+    padding-bottom: 50px;
+}
+input {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    padding: 12px 11px;
+    font-size: 14px;
+    border: 3px solid black;
+    border-radius: 5px;
+    background-color: rgb(128, 95, 158);
+    color: white;
+}
+
+.row button{
+    border: 3px solid black;
+    border-radius: 10px;
+    padding: 10px 10px;
+    font-size: 15px;
+    margin: 2px;
+    cursor: pointer;
+    width: 45px;
+    text-align: center;
+}
+.button{
+    background-color: rgb(204, 165, 165);
+}
+
+
+
+@media only screen and (max-width: 300px){
+    .container{
+        margin: 50px 0px;
+    }
+}
+@media only screen and (max-width: 400px){
+    .container{
+        margin: 50px 40px;
+    }
+}
+@media only screen and (max-width: 500px){
+    .container{
+        margin: 50px 95px;
+    }
+}
